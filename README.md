@@ -7,8 +7,8 @@
 
 Installation:
 
-Usage: 
-###Features:Users can check off any dietary restrictions or allergies they may have in the settings tab. This will generate a number of meal options that includes one entree, 2 sides and 1 soup. The composition of the meal options will be based on nutritional values.
+
+###Features: Users can check off any dietary restrictions or allergies they may have in the settings tab. This will generate a number of meal options that includes one entree, 2 sides and 1 soup. The composition of the meal options will be based on nutritional values.
 
 |Deitary restrictions considered presently: | Allergens considered presently:|
 |-------------------------------------------|--------------------------------|
