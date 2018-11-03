@@ -38,7 +38,7 @@ This app was built by students at Mount Holyoke College and UMass for HackHolyok
 
 License
 
-### Disclaimer
+### User disclaimer
 
 This app is not to be used by anyone under the age of 18.
 
