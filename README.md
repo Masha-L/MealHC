@@ -11,7 +11,8 @@
 
 
 ### Usage: 
-Users can check off any dietary restrictions or allergies they may have in the settings tab. This will generate a number of meal options that includes one entree, 2 sides and 1 soup. 
+Users can check off any dietary restrictions or allergies they may have in the settings tab. This will generate a number of meal options that includes entree, sides, soup and accompaniments.
+
 
 |Deitary restrictions considered presently: | Allergens considered presently:|
 |-------------------------------------------|--------------------------------|
@@ -25,7 +26,10 @@ Users can check off any dietary restrictions or allergies they may have in the s
 | Eggs |  Dairy |
 | No pork |  Sesame |
 
-The composition of the meal options will be based on nutritional values. The calorie intake will be determined based on the age, sex and activity level of the user. 
+
+### Features
+* The calorie intake will be determined based on the age, sex and activity level of the user
+* The composition of the meal options will be based on nutritional values
 
 #### Features that can be added:
 1. 
