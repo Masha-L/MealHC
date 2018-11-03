@@ -30,7 +30,7 @@ Users can check off any dietary restrictions or allergies they may have in the s
 
 ### Features
 * The calorie intake will be determined based on the age, sex and activity level of the user
-* The composition of the meal options will be based on nutritional values
+* The composition of the meal options will be based on nutritional value requirements
 
 ### App mockup
 
