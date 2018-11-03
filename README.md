@@ -3,11 +3,36 @@
 
 
 
-**MealHC** is ..... intro: what it does
+**MealHC** is an app that acts as a guide to meals at Mount Holyoke College. It considers a user's dietary restrictions and goes through the MHC menu to come up with different meal options.  
 
 Installation:
 
-Usage: how people can use it
+Usage: 
+###Features:Users can check off any dietary restrictions or allergies they may have in the settings tab. This will generate a number of meal options that includes one entree, 2 sides and 1 soup. The composition of the meal options will be based on nutritional values.
+
+Deitary restrictions considered presently: | Allergens considered presently:
+1. Vegetarian
+2. Vegan
+3. Kosher
+4. Halal
+5. Gluten Free
+6. Pescatarian
+7. No Dairy
+8. Eggs
+9. No pork
+
+
+1. Soybean
+2. Gluten
+3. Nuts
+4. Tree nuts
+5. Coconut
+6. Fish
+7. Shellfish
+8. Dairy
+9. Sesame
+
+how people can use it
         what features it has
 
 improvements:
