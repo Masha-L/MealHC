@@ -31,7 +31,10 @@ Users can check off any dietary restrictions or allergies they may have in the s
 
 
 
-credits
+### Contributers
+This app was built by students at Mount Holyoke College and UMass for HackHolyoke 2018.
+
+
 
 License
 
