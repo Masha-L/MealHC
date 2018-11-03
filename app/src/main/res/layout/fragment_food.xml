@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        style="@android:style/Widget.Holo.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:fillViewport="false"
+        android:scrollbarStyle="insideOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="368dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/date_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose the day to plan for:"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:entries="@array/planets_array" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Breakfast" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <FrameLayout
+                        android:layout_width="360dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@android:color/darker_gray"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <HorizontalScrollView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView27"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView28"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView29"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button5"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="44dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView30"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView31"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView32"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView33"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView34"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView35"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button9"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView36"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView37"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView38"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button10"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button11"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </FrameLayout>
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lunch" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <FrameLayout
+                        android:layout_width="360dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@android:color/darker_gray"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <HorizontalScrollView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView27"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView28"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView29"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button5"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="44dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView30"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView31"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView32"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView33"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView34"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView35"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button9"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView36"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView37"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView38"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button10"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button11"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </FrameLayout>
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dinner" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="360dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@android:color/darker_gray"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <HorizontalScrollView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView27"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView28"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView29"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button5"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="44dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView30"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView31"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView32"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView33"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView34"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView35"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button9"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                    <Space
+                                        android:layout_width="14dp"
+                                        android:layout_height="34dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView36"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Name of Food" />
+
+                                        <TextView
+                                            android:id="@+id/textView37"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="60 Calories per serving" />
+
+                                        <TextView
+                                            android:id="@+id/textView38"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_weight="1"
+                                            android:text="Location" />
+
+                                        <Button
+                                            android:id="@+id/button10"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="More Info" />
+
+                                        <Button
+                                            android:id="@+id/button11"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:text="Add to plan" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </FrameLayout>
+                </android.support.constraint.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Saturday 11/3</item>
+        <item>Sunday 11/4</item>
+        <item>Monday 11/5</item>
+        <item>Tuesday 11/6</item>
+        <item>Wednesday 11/7</item>
+        <item>Thursday 11/8</item>
+        <item>Friday 11/9</item>
+        <item>Saturday 11/10</item>
+    </string-array>
+</resources>

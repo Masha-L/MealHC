@@ -1,0 +1,222 @@
+{
+	"breakfast" : {
+	"entrees" : [
+
+	             ],
+	"sides" : [
+
+	           ],
+	"soups" : [
+
+	           ]
+},
+	"lunch" : {
+	"entrees" : [
+					{
+                    "name": "Breaded Halal Chicken Tenders",
+                    "stationName": "Baraka - Halal",
+                    "serving": "4 oz",
+                    "calories": 435,
+                    "totalFat": 31.5,
+                    "saturatedFat": 5.4,
+                    "transFat": 0.0,
+                    "totalCarbs": 19.3,
+                    "sugars": 0.5,
+                    "cholesterol": 49.9,
+                    "protein": 17.9,
+                    "sodium": 518.2,
+                    "restrictions": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        1,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+	             ],
+	"sides" : [
+				{
+	        	   "name": "Yellow Rice",
+	        	   "stationName": "Baraka - Halal",
+	        	   "serving": "5 oz",
+	        	   "calories": 106,
+	        	   "totalFat": 4.4,
+	        	   "saturatedFat": 0.0,
+	        	   "transFat": 0.0,
+	        	   "totalCarbs": 14.7,
+	        	   "sugars": 0.4,
+	        	   "cholesterol": 0.0,
+	        	   "protein": 1.5,
+	        	   "sodium": 495.0,
+	        	   "restrictions": [
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    1
+	        	                    ]
+	           }
+	           ],
+	"soups" : [
+
+	           ]
+},
+	"dinner" : {
+	"entrees" : [
+	             {
+	            	 "name": "Indian Curried Chicken w/Spicy Cucumber Relish",
+	            	 "stationName": "Baraka - Halal",
+	            	 "serving": "1 each",
+	            	 "calories": 230,
+	            	 "totalFat": 4.2,
+	            	 "saturatedFat": 1.1,
+	            	 "transFat": 0.0,
+	            	 "totalCarbs": 12.0,
+	            	 "sugars": 2.0,
+	            	 "cholesterol": 87.1,
+	            	 "protein": 34.5,
+	            	 "sodium": 260.1,
+	            	 "restrictions": [
+	            	                  1,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  1,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  1,
+	            	                  0,
+	            	                  0
+	            	                  ]
+	             },
+	             {
+	            	 "name": "Baked Chicken Drummers",
+	            	 "stationName": "Baraka - Halal",
+	            	 "serving": "1 each",
+	            	 "calories": 79,
+	            	 "totalFat": 4.2,
+	            	 "saturatedFat": 1.1,
+	            	 "transFat": 0.0,
+	            	 "totalCarbs": 0.0,
+	            	 "sugars": 0.0,
+	            	 "cholesterol": 55.3,
+	            	 "protein": 9.6,
+	            	 "sodium": 48.6,
+	            	 "restrictions": [
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  1,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0,
+	            	                  0
+	            	                  ]
+	             }
+	             ],
+	"sides" : [
+	           {
+	        	   "name": "Baked Potatoes",
+	        	   "stationName": "Baraka - Halal",
+	        	   "serving": "1 each",
+	        	   "calories": 161,
+	        	   "totalFat": 0.2,
+	        	   "saturatedFat": 0.1,
+	        	   "transFat": 0.0,
+	        	   "totalCarbs": 36.6,
+	        	   "sugars": 2.0,
+	        	   "cholesterol": 0.0,
+	        	   "protein": 4.3,
+	        	   "sodium": 17.3,
+	        	   "restrictions": [
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    1
+	        	                    ]
+	           },
+	           {
+	        	   "name": "Yellow Rice",
+	        	   "stationName": "Baraka - Halal",
+	        	   "serving": "5 oz",
+	        	   "calories": 106,
+	        	   "totalFat": 4.4,
+	        	   "saturatedFat": 0.0,
+	        	   "transFat": 0.0,
+	        	   "totalCarbs": 14.7,
+	        	   "sugars": 0.4,
+	        	   "cholesterol": 0.0,
+	        	   "protein": 1.5,
+	        	   "sodium": 495.0,
+	        	   "restrictions": [
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    0,
+	        	                    1
+	        	                    ]
+	           }
+	           ],
+	"soups" : [
+
+	           ]
+}
+}
