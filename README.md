@@ -5,7 +5,7 @@
 
 </p>
 
-**MealHC** is an app that acts as a guide to meals at Mount Holyoke College. It takes in a user's dietary restrictions and goes through the MHC menu to come up with different meal options.  
+**MealHC** is an app that acts as a guide to meals at Mount Holyoke College. It takes in a user's dietary restrictions and goes through the MHC menu to come up with different meal options for every day of the week. 
 
 ### Installation: 
 An android device is required to download and run this app. App can be downloaded from Google Play.
@@ -35,7 +35,6 @@ Users can check off any dietary restrictions or allergies they may have in the s
 #### Features that can be added:
 1. More dietary restrictions 
 2. A tracker of meals consumed
-3. 
 
 
 ### Contributers
