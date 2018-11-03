@@ -1,6 +1,7 @@
 # MealHC
 
 
+<img width="189" alt="iconxhdpi" src="https://user-images.githubusercontent.com/44718709/47951970-c2904000-df3e-11e8-93fa-f2f13c095a5e.png">
 
 
 **MealHC** is an app that acts as a guide to meals at Mount Holyoke College. It considers a user's dietary restrictions and goes through the MHC menu to come up with different meal options.  
