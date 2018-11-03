@@ -36,6 +36,11 @@ Users can check off any dietary restrictions or allergies they may have in the s
 
 ![allldpi](https://user-images.githubusercontent.com/44718709/47955617-22074380-df71-11e8-84a5-d439c88b5aa0.png)
 
+### Screenshots
+
+![screen shot 2018-11-03 at 2 19 51 pm](https://user-images.githubusercontent.com/44718709/47955800-92af5f80-df73-11e8-93dc-f4397cea680c.png)
+![allldpi](https://user-images.githubusercontent.com/44718709/47955646-80342680-df71-11e8-803c-0b0c8960007e.png)
+
 
 ### How it works:
 Data scrape: the data from the Mount Holyoke menu website is extracted into a database. This data includes nutritional values of each food item and the place to find it. The scraped data is put in a .json file in the form of a database.
