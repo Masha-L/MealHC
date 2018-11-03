@@ -33,15 +33,12 @@ Users can check off any dietary restrictions or allergies they may have in the s
 * The composition of the meal options will be based on nutritional values
 
 
-
-
 ### How it works:
-1. Data scrape: the data from the Mount Holyoke menu website is extracted into a database. This data includes nutritional values of each food item.
-2. 
+Data scrape: the data from the Mount Holyoke menu website is extracted into a database. This data includes nutritional values of each food item and the place to find it. The scraped data is put in a .json file in the form of a database.
 
+Data extraction: the algorithm parses the database, extracts the items and creates appropriate objects such as FoodItem, MealOption, or Menu.
 
-
-
+Diet Analysis: the algorithm analyzes the information about the user's physical characteristics as well as food allergies, dietary restrictions, and preferences. Then, it uses scientific data to create a list of healthy menu options for the given day.
 
 
 #### Features that can be added:
