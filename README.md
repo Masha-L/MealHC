@@ -32,6 +32,10 @@ Users can check off any dietary restrictions or allergies they may have in the s
 * The calorie intake will be determined based on the age, sex and activity level of the user
 * The composition of the meal options will be based on nutritional values
 
+### App mockup
+<p align= "center">
+![allldpi](https://user-images.githubusercontent.com/44718709/47955617-22074380-df71-11e8-84a5-d439c88b5aa0.png)
+  </p>
 
 ### How it works:
 Data scrape: the data from the Mount Holyoke menu website is extracted into a database. This data includes nutritional values of each food item and the place to find it. The scraped data is put in a .json file in the form of a database.
