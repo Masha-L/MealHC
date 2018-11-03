@@ -30,7 +30,7 @@ Users can check off any dietary restrictions or allergies they may have in the s
 #### Features that can be added:
 1. 
 
-contributing?
+
 
 credits
 
