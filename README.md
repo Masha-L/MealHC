@@ -23,8 +23,8 @@ Users can check off any dietary restrictions or allergies they may have in the s
 | Gluten Free |  Coconut |
 | Pescatarian |  Fish |
 | No Dairy |  Shellfish |
-| Eggs |  Dairy |
-| No pork |  Sesame |
+| No Eggs |  Dairy |
+| No Pork |  Sesame |
 
 
 ### Features
@@ -32,7 +32,9 @@ Users can check off any dietary restrictions or allergies they may have in the s
 * The composition of the meal options will be based on nutritional values
 
 #### Features that can be added:
-1. 
+1. More dietary restrictions 
+2. A tracker of meals consumed
+3. 
 
 
 ### Contributers
