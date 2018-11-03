@@ -12,15 +12,15 @@ Usage:
 
 |Deitary restrictions considered presently: | Allergens considered presently:|
 |-------------------------------------------|--------------------------------|
-|1. Vegetarian | 1. Soybean|
-|2. Vegan | 2. Gluten
-3. Kosher | 3. Nuts
-4. Halal | 4. Tree nuts
-5. Gluten Free | 5. Coconut
-6. Pescatarian | 6. Fish
-7. No Dairy | 7. Shellfish
-8. Eggs | 8. Dairy
-9. No pork | 9. Sesame
+| Vegetarian |  Soybean|
+| Vegan |  Gluten |
+| Kosher |  Nuts |
+| Halal |  Tree nuts |
+| Gluten Free |  Coconut |
+| Pescatarian |  Fish |
+| No Dairy |  Shellfish |
+| Eggs |  Dairy |
+| No pork |  Sesame |
 
 
 
