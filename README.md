@@ -27,13 +27,17 @@ Users can check off any dietary restrictions or allergies they may have in the s
 
 
 #### Features that can be added:
-1. 
+1. Users could  
 
 
 
 credits
 
 License
+
+### Disclaimer
+
+This app is not to be used by anyone under the age of 18.
 
 
 
