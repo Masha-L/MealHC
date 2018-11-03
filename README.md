@@ -32,6 +32,18 @@ Users can check off any dietary restrictions or allergies they may have in the s
 * The calorie intake will be determined based on the age, sex and activity level of the user
 * The composition of the meal options will be based on nutritional values
 
+
+
+
+### How it works:
+1. Data scrape: the data from the Mount Holyoke menu website is extracted into a database. This data includes nutritional values of each food item.
+2. 
+
+
+
+
+
+
 #### Features that can be added:
 1. More dietary restrictions 
 2. A tracker of meals consumed
@@ -41,10 +53,7 @@ Users can check off any dietary restrictions or allergies they may have in the s
 This app was built by students at Mount Holyoke College and UMass for HackHolyoke 2018.
 
 
-
-
 ### User disclaimer
-
 This app is not meant to be used by anyone under the age of 18.
 
 
